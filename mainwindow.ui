@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1660</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>10</y>
+      <width>321</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+    </layout>
+   </widget>
+   <widget class="qfi_EADI" name="graphicsEADI">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1205</x>
+      <y>21</y>
+      <width>311</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="midLineWidth">
+     <number>2</number>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="interactive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QGVMap" name="geoMap" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1660</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="mouseEvent" stdset="0">
+     <bool>true</bool>
+    </property>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>700</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    border-radius: 10px;
+	background-color: rgb(90, 90, 90);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="qml.qrc">
+       <normaloff>:/images/dd.svg</normaloff>:/images/dd.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>303</number>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>550</y>
+       <width>161</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetFixedSize</enum>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>700</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    border-radius: 10px;
+	background-color: rgb(90, 90, 90);
+}</string>
+     </property>
+     <property name="icon">
+      <iconset resource="qml.qrc">
+       <normaloff>:/images/pla.svg</normaloff>:/images/pla.svg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>700</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    border-radius: 10px;
+	background-color: rgb(90, 90, 90);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="qml.qrc">
+       <normaloff>:/images/rrr.svg</normaloff>:/images/rrr.svg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>700</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    border-radius: 10px;
+	background-color: rgb(90, 90, 90);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="qml.qrc">
+       <normaloff>:/images/locky.svg</normaloff>:/images/locky.svg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>870</x>
+       <y>700</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    border-radius: 10px;
+	background-color: rgb(90, 90, 90);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="qml.qrc">
+       <normaloff>:/images/home.png</normaloff>:/images/home.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>700</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    border-radius: 10px;
+	background-color: rgb(90, 90, 90);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="qml.qrc">
+       <normaloff>:/images/off.svg</normaloff>:/images/off.svg</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>1030</x>
+       <y>700</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    border-radius: 10px;
+	background-color: rgb(90, 90, 90);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QDockWidget" name="dockWidget_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>101</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(90, 90, 90);
+border-radius: 10px;</string>
+    </property>
+    <property name="features">
+     <set>QDockWidget::DockWidgetClosable</set>
+    </property>
+    <property name="allowedAreas">
+     <set>Qt::BottomDockWidgetArea|Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+    </property>
+    <property name="windowTitle">
+     <string>Инфрмационная панель</string>
+    </property>
+    <widget class="QWidget" name="dockWidgetContents_4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="tabletTracking">
+      <bool>true</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <zorder>dockWidget_3</zorder>
+   <zorder>geoMap</zorder>
+   <zorder>horizontalLayoutWidget_3</zorder>
+   <zorder>graphicsEADI</zorder>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QGVMap</class>
+   <extends>QWidget</extends>
+   <header location="global">QGeoView/QGVMap.h</header>
+   <container>1</container>
+   <slots>
+    <slot>slot1()</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>qfi_EADI</class>
+   <extends>QGraphicsView</extends>
+   <header>C:/Users/acer/Documents/NanoSpace/qfi/qfi_EADI.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="qml.qrc"/>
+ </resources>
+ <connections/>
+</ui>

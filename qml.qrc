@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>buttons.qml</file>
+        <file>images/fly.png</file>
+        <file>images/y_rotate-150x150.png</file>
+        <file>images/fly.jpg</file>
+        <file>images/mission.png</file>
+        <file>images/off.jpg</file>
+        <file>panel.qml</file>
+        <file>images/flight.webp</file>
+        <file>images/f.png</file>
+        <file>images/ff.svg</file>
+        <file>images/dd.svg</file>
+        <file>camera.qml</file>
+        <file>images/route.html</file>
+        <file>images/rr.svg</file>
+        <file>images/rrr.svg</file>
+        <file>images/off.svg</file>
+        <file>images/prizem.svg</file>
+        <file>images/lga.svg</file>
+        <file>images/plane-arrival.svg</file>
+        <file>images/pla.svg</file>
+        <file>images/loc.svg</file>
+        <file>images/locky.svg</file>
+        <file>images/home.png</file>
+    </qresource>
+</RCC>
